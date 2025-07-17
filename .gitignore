@@ -1,0 +1,12 @@
+# Ignore compiled binaries
+*.exe
+*.out
+*.o
+
+# Ignore object files
+*.obj
+
+# Ignore editor temporary files (optional)
+*~
+*.swp
+.vscode/
