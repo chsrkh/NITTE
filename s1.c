@@ -1,10 +1,15 @@
 #include<stdio.h>
 #include<string.h>
+struct student
+	{
+		int ht,m1,m2,m3;
+		char name[50];
+	};
 int main()
 {
-	char sn[100];
-	printf("Enter your name:");
-	scanf("%[^\n]s",sn);
-	printf("\n name = %s",sn);
+	
+	student s;
+	
+	
 	return 0;
 }
